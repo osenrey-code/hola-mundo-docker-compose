@@ -2,7 +2,7 @@
 
 Aplicación web de práctica que levanta dos servicios:
 
-- `app`: PHP 8.3 con Apache, expuesto en `http://localhost:8080`.
+- `app`: PHP 8.3 con Apache, expuesto en `http://localhost:8081`.
 - `db`: MySQL 8.0 con una tabla inicial llamada `visitas`.
 
 ## Ejecutar
@@ -13,7 +13,7 @@ Requiere Docker Desktop:
 docker compose up --build
 ```
 
-Luego abrir [http://localhost:8080](http://localhost:8080). La página confirma la conexión y muestra los registros consultados desde MySQL.
+Luego abrir [http://localhost:8081](http://localhost:8081). La página confirma la conexión y muestra los registros consultados desde MySQL.
 
 Para detener los servicios:
 
